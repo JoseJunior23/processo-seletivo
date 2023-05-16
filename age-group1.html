@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css">
+  <title>Processo seletivo</title>
+</head>
+
+<body>
+  <div>
+  <header><h1>Faixa Etária </h1></header>
+  
+  <div id="janela">
+    <label>selecione seu sexo: </label>
+    <select name="gender" id="gender">
+      <option value="men">Masculino</option>
+      <option value="woman">Feminino</option>
+    </select>
+    <label for="age">Digite sua idade</label>
+    <input type="number" name="age" id="age" />
+    <button id="btn">Consulte sua condição</button>
+  </div>
+  <div id="preview"></div>
+</div>
+</body>
+<script src="age-group.js"></script>
+</html>
